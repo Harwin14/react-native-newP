@@ -17,7 +17,7 @@ const StyleComponent = () => {
           borderColor: 'purple',
           marginTop: 20,
           marginLeft: 20,
-        }} 
+        }}  
       />   
       <View>
         <Image  source={require('./img/')} style={styles.image} />
