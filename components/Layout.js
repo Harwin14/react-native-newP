@@ -315,7 +315,7 @@ const Layout = () => {
           flexWrap: 'wrap',
           marginVertical: 2,
           gap: 3,
-        }}> 
+        }}>  
         <View style={{backgroundColor: 'grey', flex: 1, height: 130}} />
         <View style={{backgroundColor: 'grey', flex: 1, height: 130}} />
         <View style={{backgroundColor: 'grey', flex: 1, height: 130}} />
