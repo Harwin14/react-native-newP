@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {Image, StyleSheet, Text, View} from 'react-native';
-import macbook from '../img/macbook.png';
+import macbook from '../../assets/images/macbook.png';
 
 const StyleComponent = () => {
   return (

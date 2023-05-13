@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text, Image, TouchableOpacity} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome5';
-import profile from '../img/profil.jpg';
+import profile from '../../assets/images/profil.jpg';
 const Layout = () => {
   return (
     <View style={{backgroundColor: '#f4f7f7'}}>
