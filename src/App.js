@@ -11,7 +11,7 @@ const App = () => {
       <ScrollView>
         <SampleComponent />
         <StyleComponent />
-        <Layout />
+        <Layout /> 
         <Position />
       </ScrollView>
     </View>
