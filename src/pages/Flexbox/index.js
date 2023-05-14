@@ -14,7 +14,7 @@ class Flexbox extends Component {
         <View style={{backgroundColor:'#1dd1a1', flex:1,height:50}}/>
         <View style={{backgroundColor:'#5f27cd', flex:1,height:50}}/>
       </View>
-    ); 
+    );  
   }
 } 
 
