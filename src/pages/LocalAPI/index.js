@@ -13,9 +13,9 @@ const LocalAPI = () => {
       <View style={styles.line} />
       <View>
         <Image src="" />
-        <View>
+        <View> 
           <Text>Name</Text>
-          <Text>Email</Text>
+          <Text>Email</Text> 
           <Text>Bidang</Text>
         </View>
       </View>
