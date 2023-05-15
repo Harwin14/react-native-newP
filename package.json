@@ -11,8 +11,11 @@
     "emulator-android": "~/Android/Sdk/emulator/emulator -avd Pixel_5_API_31"
   },
   "dependencies": {
+    "axios": "^1.4.0",
     "react": "18.2.0",
     "react-native": "0.71.7",
+    "react-native-svg": "^13.9.0",
+    "react-native-svg-transformer": "^1.0.0",
     "react-native-vector-icons": "^9.2.0"
   },
   "devDependencies": {

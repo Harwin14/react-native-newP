@@ -1,42 +1,38 @@
+import {StyleSheet, Text, View, Image} from 'react-native';
 import React from 'react';
-import {StyleSheet, Image, View, Text} from 'react-native';
 import cart from '../../assets/icons/cart.png';
 
-export default function Position() {
+const Cart = props => {
   return (
-    <View style={styles.container}>
+    <View>
       <View style={styles.cartWrapper}>
         <Image style={styles.iconCart} source={cart} />
-        <Text style={styles.notif}>10</Text>
+          <Text style={styles.notif}>{props.quantity}</Text>
       </View>
       <Text style={styles.text}>Keranjang Belanja Anda</Text>
     </View>
   );
-}
+};
+
+export default Cart;
 
 const styles = StyleSheet.create({
-  container: {
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#fff',
-    height: 500,
-  },
+    cartWrapper: {
+      borderWidth: 4,
+      width: 100,
+      height: 100,
+      borderRadius: 150 / 2,
+      borderColor: '#4398d1',
+      justifyContent: 'center',
+      alignItems: 'center',
+      position: 'relative',
+    },
   iconCart: {
-    width: 150,
-    height: 120,
-  },
-  cartWrapper: {
-    borderWidth: 4,
-    width: 200,
-    height: 200,
-    borderRadius: 100,
-    borderColor: '#4398d1',
-    justifyContent: 'center',
-    alignItems: 'center',
-    position: 'relative',
+    width: 50,
+    height: 50,
   },
   text: {
-    fontSize: 24,
+    fontSize: 15,
     color: '#777777',
     fontWeight: '700',
     marginTop: 8,
