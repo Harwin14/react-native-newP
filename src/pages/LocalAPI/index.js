@@ -16,7 +16,7 @@ const LocalAPI = () => {
         <View> 
           <Text>Name</Text>
           <Text>Email</Text> 
-          <Text>Bidang</Text>
+          <Text>Bidang</Text> 
         </View>
       </View>
     </View>
