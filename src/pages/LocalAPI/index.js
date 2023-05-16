@@ -128,7 +128,7 @@ const LocalAPI = () => {
         />
       ))}
     </View>
-  );
+  ); 
 };
 
 export default LocalAPI;
