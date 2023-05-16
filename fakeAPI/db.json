@@ -1,29 +1,16 @@
 {
-  "posts": [
+  "users": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Agung Harwin",
+      "email": "agungharwinn@gmail.com",
+      "role": "React Native Dev",
+      "id": 1
     },
     {
-      "title": "wind-code",
-      "author": "harwin",
-      "id": 5
-    },
-    {
-      "title": "react-native code learning",
-      "author": "harwin",
-      "id": 7
+      "name": "widia fath",
+      "email": "widiafath@gmail.com",
+      "role": "mother",
+      "id": 2
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
