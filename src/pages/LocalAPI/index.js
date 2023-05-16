@@ -125,7 +125,7 @@ const LocalAPI = () => {
               {text: 'Yes', onPress: () => deleteItem(user)},
             ])
           }
-        />
+        /> 
       ))}
     </View>
   ); 
